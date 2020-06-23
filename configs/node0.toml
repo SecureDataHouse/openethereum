@@ -1,0 +1,16 @@
+[parity]
+chain = "chain.json"
+base_path = "/root/data0"
+[network]
+port = 30300
+bootnodes = ["enode://eee1ce4432d8338080ffd9499a0480023a26374a545a19dae7e7387c261712c10fe67c8651fa55aab697d433c0cb24cf96395196eb52971532711fab27649a18@172.26.179.204:30300"]
+[rpc]
+port = 8540
+apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts"]
+[websockets]
+port = 8450
+[account]
+password = ["node.pwds"]
+[mining]
+engine_signer = "0x00Bd138aBD70e2F00903268F3Db08f2D25677C9e"
+reseal_on_txs = "none"
